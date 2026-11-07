@@ -1,5 +1,5 @@
 <h1 align="center">Kennedy Maingi</h1>
-<p align="center"><b>Software Engineer · Backend & Full-Stack</b><br>Nairobi, Kenya · E&amp;M Technology</p>
+<p align="center"><b>Software Engineer · Backend & Full-Stack</b><br>Nairobi, Kenya · Pamilo (Canada) · E&amp;M Technology</p>
 
 <p align="center">
   <a href="mailto:kennedykyalo2000@gmail.com"><img src="https://img.shields.io/badge/Email-kennedykyalo2000%40gmail.com-0A66C2?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
@@ -53,12 +53,12 @@ I studied **Computer Science at Egerton University**, and I'm especially interes
 ### Selected work
 
 #### 🤖 Pamilo AI: AI business assistant platform *(Node.js · Express · MongoDB · React · OpenAI / Gemini)*
-A multi-tenant SaaS platform where businesses deploy an AI assistant trained on their own knowledge, built for a Canadian company.
+Software engineer at **Pamilo**, a Canadian company. Pamilo AI is a multi-tenant SaaS platform where businesses deploy an AI assistant trained on their own knowledge.
 - **Knowledge base and RAG Q&amp;A**: ingests PDFs, Word documents, CSVs and scraped websites, indexes them, and grounds AI answers in the business's own content, with knowledge-gap detection
 - **Embeddable chat widget** with real-time conversations (Socket.io), lead capture, and AI phone lines through Twilio
 - **Business workspace and platform-admin console** with memberships, audit logging, Stripe billing and token-based usage pricing
 - **Security hardening** against the OWASP Top 10: tenant isolation, SSRF protection, rate limiting, Helmet headers, input sanitisation, JWT and Google OAuth sign-in
-- *Private repository: client work*
+- *Private repository: proprietary work at Pamilo*
 
 #### 🏦 Loan Origination System: backend *(Java · Spring Boot · JPA · MySQL)*
 Backend for a lending platform, covering the loan lifecycle from first contact to application.
@@ -90,7 +90,7 @@ A responsive education site with course catalogue, events and trainers pages, cl
 
 ### Currently
 
-- 🤖 Building **Pamilo AI**, an AI business assistant platform, for a Canadian company
+- 🤖 Building **Pamilo AI**, an AI business assistant platform, at **Pamilo** (Canada)
 - 🔧 Building production backend systems at **E&amp;M Technology**
 - 🔐 Deepening my work in **application security**
 - 🤝 Open to collaborating on **AI, backend, fintech and security-focused** projects
