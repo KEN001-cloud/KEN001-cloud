@@ -11,7 +11,7 @@
 
 ### About
 
-I build backend services and full-stack web applications, from REST APIs and relational data models to the interfaces people actually use. My work spans **fintech** (loan origination and KYC), **commerce** (point-of-sale, inventory and food ordering) and **web platforms** with authentication, file storage and admin tooling.
+I build backend services and full-stack web applications, from REST APIs and relational data models to the interfaces people actually use. My work spans **AI products** (LLM assistants and retrieval-augmented knowledge bases), **fintech** (loan origination and KYC), **commerce** (point-of-sale, inventory and food ordering) and **web platforms** with authentication, file storage and admin tooling.
 
 I studied **Computer Science at Egerton University**, and I'm especially interested in **secure software**: access control, data protection and building systems people can trust.
 
@@ -21,16 +21,22 @@ I studied **Computer Science at Egerton University**, and I'm especially interes
 
 | Area | What I work with |
 |---|---|
-| **Backend** | Java 17, Spring Boot 3 (Web, Data JPA), REST API design, layered controller → service → repository architecture |
+| **Backend** | Node.js, Express, Java 17, Spring Boot 3 (Web, Data JPA), REST API design, Socket.io, layered controller → service → repository architecture |
+| **AI & LLMs** | OpenAI and Google Gemini APIs, retrieval-augmented generation (RAG), document ingestion and indexing, web scraping (Puppeteer, Cheerio) |
+| **Integrations** | Stripe billing, Twilio voice, Google OAuth, transactional email |
 | **Frontend** | React, JavaScript (ES6+), HTML5, CSS3, Material UI, Bootstrap, Alpine.js |
 | **Desktop** | Electron (cross-platform packaging for Windows and macOS) |
-| **Databases** | MySQL, MariaDB, PostgreSQL, H2, Firebase, SQL schema design |
+| **Databases** | MongoDB, MySQL, MariaDB, PostgreSQL, H2, Firebase, schema design |
 | **Platforms & tools** | Supabase (Auth, Row-Level Security, Storage, Edge Functions), Gradle, Git, PHP |
-| **Security** | Authentication flows, role-based access, row-level security policies, KYC workflows |
+| **Security** | OWASP Top 10 hardening, multi-tenant isolation, JWT and OAuth authentication, role-based access, row-level security, KYC workflows |
 
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron">
@@ -45,6 +51,14 @@ I studied **Computer Science at Egerton University**, and I'm especially interes
 ---
 
 ### Selected work
+
+#### 🤖 Pamilo AI: AI business assistant platform *(Node.js · Express · MongoDB · React · OpenAI / Gemini)*
+A multi-tenant SaaS platform where businesses deploy an AI assistant trained on their own knowledge, built for a Canadian company.
+- **Knowledge base and RAG Q&amp;A**: ingests PDFs, Word documents, CSVs and scraped websites, indexes them, and grounds AI answers in the business's own content, with knowledge-gap detection
+- **Embeddable chat widget** with real-time conversations (Socket.io), lead capture, and AI phone lines through Twilio
+- **Business workspace and platform-admin console** with memberships, audit logging, Stripe billing and token-based usage pricing
+- **Security hardening** against the OWASP Top 10: tenant isolation, SSRF protection, rate limiting, Helmet headers, input sanitisation, JWT and Google OAuth sign-in
+- *Private repository: client work*
 
 #### 🏦 Loan Origination System: backend *(Java · Spring Boot · JPA · MySQL)*
 Backend for a lending platform, covering the loan lifecycle from first contact to application.
@@ -76,8 +90,9 @@ A responsive education site with course catalogue, events and trainers pages, cl
 
 ### Currently
 
+- 🤖 Building **Pamilo AI**, an AI business assistant platform, for a Canadian company
 - 🔧 Building production backend systems at **E&amp;M Technology**
 - 🔐 Deepening my work in **application security**
-- 🤝 Open to collaborating on **backend, fintech and security-focused** projects
+- 🤝 Open to collaborating on **AI, backend, fintech and security-focused** projects
 
 <p align="center"><a href="mailto:kennedykyalo2000@gmail.com">Get in touch</a></p>
