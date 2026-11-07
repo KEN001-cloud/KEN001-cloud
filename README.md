@@ -53,7 +53,7 @@ Backend for a lending platform, covering the loan lifecycle from first contact t
 - Runs on MySQL or MariaDB in production and H2 for local development
 - *Private repository: professional work at E&amp;M Technology*
 
-#### 🎓 Plumbline: expert fellowship platform *(Supabase · PostgreSQL · Alpine.js)*
+#### 🎓 [Plumbline](https://github.com/KEN001-cloud/plumbline): expert fellowship platform *(Supabase · PostgreSQL · Alpine.js)*
 A complete platform where subject experts apply, get verified, and are paid to review and teach AI.
 - **8-step onboarding** that saves progress to the applicant's account and resumes on any device
 - **Fellow workspace** for tasks, training and payouts, plus an **admin dashboard** for ID verification, task review and CSV export
